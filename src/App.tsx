@@ -1,10 +1,17 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './home/LandingPage'; 
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div>
-    <p className="text-4xl font-bold text-blue-500">Theodora</p>
-    </div>
+    <Router>
+      <div>
+        <p className="text-4xl font-bold text-blue-500">Theodora</p>
+        <Routes>
+          <Route path="/" element={<LandingPage />} /> 
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
