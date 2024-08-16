@@ -1,3 +1,123 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+   @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Bold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Light Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Medium Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next DemiBold Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next XtraBold Italic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Thin Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Travels';
+    src: url('./assets/fonts/TT Travels Next Black Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /* Tailwind CSS base styles */
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  body {
+    font-family: 'TT Travels', sans-serif;
+  }
+  
