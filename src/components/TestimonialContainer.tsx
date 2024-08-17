@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import Testimonial from './Testimonial';
 import '../style/myStyle.css';
 
@@ -17,29 +17,28 @@ const TestimonialContainer: React.FC<TestimonialContainerProps> = ({ testimonial
     const [currentIndex, setCurrentIndex] = useState(0);
     const [animationClass, setAnimationClass] = useState('fixed');
 
+    const handleNext = useCallback(() => {
+        setCurrentIndex((prevIndex) =>
+            prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
+        );
+    }, [testimonials.length]);
 
     useEffect(() => {
         const interval = setInterval(() => {
             setAnimationClass('slide-out');
-            
+
             setTimeout(() => {
                 handleNext();
                 setAnimationClass('slide-in');
-                
+
                 setTimeout(() => {
                     setAnimationClass('fixed');
-                }, 2000);
-            }, 2500);
-        }, 3000);
+                }, 500); // Slide-in duration (0.5s)
+            }, 500); // Slide-out duration (0.5s)
+        }, 4000); // Total time for one cycle 4s
 
         return () => clearInterval(interval);
-    }, [currentIndex]);
-
-    const handleNext = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
-        );
-    };
+    }, [handleNext]);
 
     const handlePrev = () => {
         setCurrentIndex((prevIndex) =>
