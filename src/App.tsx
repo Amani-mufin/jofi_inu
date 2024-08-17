@@ -3,10 +3,11 @@ import About from './components/About';
 import backgroundImage from './assets/glowbg.png';
 import Video from './components/Video';
 import Ecosystem from './components/Ecosystem';
+import DogImage from './components/DogImage';
 
 function App() {
   return (
-    <div>
+    <>
       <div
         className="relative bg-cover bg-no-repeat min-h-screen pb-32"
         style={{ backgroundImage: `url(${backgroundImage})` }}
@@ -29,7 +30,8 @@ function App() {
           <Ecosystem />
         </div>
       </div>
-    </div>
+      <DogImage/>
+    </>
 
   );
 }
