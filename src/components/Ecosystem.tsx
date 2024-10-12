@@ -4,12 +4,13 @@ const Ecosystem = () => {
   const cards = [
     {
       content: (
-        <div className="py-8 md:p-0 text-[27px] md:text-5xl font-[807]">
+        <div className="p-16 text-[27px] md:text-5xl font-[807]">
           <p className="w-full text-left text-[#F4E7DD]">The Jofi Ecosystem</p>
         </div>
       ),
-      backgroundColor: "transparent",
-      cardClassName: "border-[#D3A178] border flex justify-center items-center",
+      backgroundColor: "linear-gradient(180deg, #19120B 0%, #2B1F16 100%)",
+      cardClassName:
+        "border-[#D3A178] border-solid border-[1px] flex justify-center items-center",
     },
     {
       content: (
@@ -78,7 +79,8 @@ const Ecosystem = () => {
             JOFI Foundation
           </h1>
           <p className="text-sm md:text-xl text-[#F4E7DD] w-full md:w-[449px] font-[597]">
-            Continuing in the footsteps of JOFI INU, creating awareness for mental health + offering support in donations.
+            Continuing in the footsteps of JOFI INU, creating awareness for
+            mental health + offering support in donations.
           </p>
         </div>
       ),
@@ -104,5 +106,3 @@ const Ecosystem = () => {
 };
 
 export default Ecosystem;
-
-
