@@ -14,7 +14,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="flex flex-col md:flex-row gap-10 md:gap-32 md:pl-40 pl-5 h-screen items-center w-full pt-20">
+    <section className="flex flex-col md:flex-row gap-10 md:gap-32 md:pl-40 pl-5 h-screen items-center w-full pt-20 max-w-[1440px]  mx-auto">
       <div
         className="order-2 md:order-1 w-full md:w-[385px] flex flex-col gap-5 text-center md:text-left"
         data-aos="fade-right"

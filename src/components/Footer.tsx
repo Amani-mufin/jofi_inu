@@ -11,22 +11,22 @@ type FooterProps = {};
 
 const Footer: React.FC<FooterProps> = () => {
     return (
-        <footer className="footer">
-            <div className="footer-content flex flex-col-reverse gap-8 md:flex-row items-center">
+        <footer className="footer ">
+            <div className="footer-content flex flex-col-reverse gap-8 md:flex-row items-center max-w-[1440px]  mx-auto">
                 <div>
                     <p className="footer-name">Jofi Inu</p>
                     <div className="footer-social">
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                            <Facebook/>
+                            <Facebook />
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                             <Twitter />
                         </a>
                         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                            <Instagram/>
+                            <Instagram />
                         </a>
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                            <LinkedIn/>
+                            <LinkedIn />
                         </a>
                     </div>
                 </div>

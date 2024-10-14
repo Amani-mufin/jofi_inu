@@ -3,7 +3,7 @@ import catman from "../assets/catman.png";
 
 const About = () => {
   return (
-    <section className="md:pl-40 p-8">
+    <section className="md:pl-40 p-8 max-w-[1440px] mt-[150px] lg:mt-0  mx-auto" data-aos="fade-up">
       <div className="flex flex-col w-full md:w-[1040px] gap-10 items-center md:items-start">
         <div className="flex items-center justify-center py-3  md:py-5 px-[15px] md:px-[30px] h-[99px] w-[300px] md:w-[436px] border-solid border-[3px] rounded-[100px] whitespace-nowrap">
           <div className="h-3.5 w-3.5 bg-[#F4E7DD] rounded-full"></div>

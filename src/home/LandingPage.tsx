@@ -12,7 +12,7 @@ const LandingPage = () => {
   return (
     <div>
       <div
-        className="relative bg-cover bg-no-repeat min-h-screen pb-32"
+        className="relative bg-cover bg-no-repeat min-h-screen pb-32 "
         style={{ backgroundImage: `url(${backgroundImage})`, backgroundPosition: 'left center' }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-90"></div>
