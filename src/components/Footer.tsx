@@ -41,7 +41,7 @@ const Footer: React.FC<FooterProps> = () => {
                 </div>
             </div>
             <div className="footer-text" data-aos="fade-up">
-                <p>© 2024 Jofi Inu. All rights reserved.</p> 
+                <p>© 2024 Jofi Inu. All rights reserved. </p> 
             </div>
         </footer>
     );
