@@ -4,7 +4,7 @@ const Ecosystem = () => {
   const cards = [
     {
       content: (
-        <div className="p-16 text-[27px] md:text-5xl font-[807]">
+        <div className="p-16 text-[27px] md:text-5xl font-[807]" data-aos="fade-up">
           <p className="w-full text-left text-[#F4E7DD]">The Jofi Ecosystem</p>
         </div>
       ),
@@ -14,7 +14,7 @@ const Ecosystem = () => {
     },
     {
       content: (
-        <div className="p-4 md:p-[30px] text-left space-y-2">
+        <div className="p-4 md:p-[30px] text-left space-y-2" data-aos="fade-up">
           <h1 className="text-2xl md:text-[32px] font-[704] text-[#D3A178] leading-[30px] md:leading-[44.8px]">
             JOFIA
           </h1>
@@ -29,7 +29,7 @@ const Ecosystem = () => {
     },
     {
       content: (
-        <div className="p-4 md:p-[30px] text-left space-y-2">
+        <div className="p-4 md:p-[30px] text-left space-y-2" data-aos="fade-up">
           <h1 className="text-2xl md:text-[32px] font-[704] text-[#D3A178] leading-[30px] md:leading-[44.8px]">
             JOFI CASINO
           </h1>
@@ -44,7 +44,7 @@ const Ecosystem = () => {
     },
     {
       content: (
-        <div className="p-4 md:p-[30px] text-left space-y-2">
+        <div className="p-4 md:p-[30px] text-left space-y-2" data-aos="fade-up">
           <h1 className="text-2xl md:text-[32px] font-[704] text-[#D3A178] leading-[30px] md:leading-[44.8px]">
             JOFI SensoryVerse
           </h1>
@@ -59,7 +59,7 @@ const Ecosystem = () => {
     },
     {
       content: (
-        <div className="p-4 md:p-[30px] text-left space-y-2">
+        <div className="p-4 md:p-[30px] text-left space-y-2" data-aos="fade-up">
           <h1 className="text-2xl md:text-[32px] font-[704] text-[#D3A178] leading-[30px] md:leading-[44.8px]">
             JOFI GAMING
           </h1>
@@ -74,7 +74,7 @@ const Ecosystem = () => {
     },
     {
       content: (
-        <div className="p-4 md:p-[30px] text-left space-y-2">
+        <div className="p-4 md:p-[30px] text-left space-y-2" data-aos="fade-up">
           <h1 className="text-2xl md:text-[32px] font-[704] text-[#D3A178] leading-[30px] md:leading-[44.8px]">
             JOFI Foundation
           </h1>
@@ -97,6 +97,7 @@ const Ecosystem = () => {
           key={index}
           backgroundColor={card.backgroundColor}
           cardClassName={card.cardClassName}
+          data-aos="fade-up"
         >
           {card.content}
         </Card>

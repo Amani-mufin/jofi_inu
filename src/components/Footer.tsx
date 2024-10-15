@@ -12,7 +12,7 @@ type FooterProps = {};
 const Footer: React.FC<FooterProps> = () => {
     return (
         <footer className="footer ">
-            <div className="footer-content flex flex-col-reverse gap-8 md:flex-row items-center max-w-[1440px]  mx-auto">
+            <div className="footer-content flex flex-col-reverse gap-8 md:flex-row items-center max-w-[1440px]  mx-auto" data-aos="fade-up">
                 <div>
                     <p className="footer-name">Jofi Inu</p>
                     <div className="footer-social">
@@ -40,8 +40,8 @@ const Footer: React.FC<FooterProps> = () => {
                     </div>
                 </div>
             </div>
-            <div className="footer-text">
-                <p>© 2024 Jofi Inu. All rights reserved.</p>
+            <div className="footer-text" data-aos="fade-up">
+                <p>© 2024 Jofi Inu. All rights reserved. </p> 
             </div>
         </footer>
     );

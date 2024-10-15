@@ -4,7 +4,7 @@ import About from './components/About';
 import backgroundImage from './assets/glowbg.png';
 import Video from './components/Video';
 import Ecosystem from './components/Ecosystem';
-import DogImage from './components/DogImage';
+// import DogImage from './components/DogImage';
 import LandingPage from './home/LandingPage';
 import AOS from "aos";
 import "aos/dist/aos.css";
