@@ -48,8 +48,8 @@ const TestimonialContainer: React.FC<TestimonialContainerProps> = ({ testimonial
 
     return (
         <div className="testimonial-page flex flex-col items-center md:gap-10">
-            <h2 className="testimonial-header md:text-5xl text-2xl">Testimonials</h2>
-            <div className='border w-44 md:w-80'></div>
+            <h2 className="testimonial-header md:text-5xl text-2xl" data-aos="fade-up">Testimonials</h2>
+            <div className='border w-44 md:w-80' data-aos="fade-up"></div>
 
             <div className="carousel">
                 {testimonials.slice(currentIndex, currentIndex + 1).map((testimonial, index) => (
